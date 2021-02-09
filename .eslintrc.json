@@ -18,6 +18,9 @@
         "react"
     ],
     "rules": {
-        "semi": [2, "always"]
+        "semi": [2, "always"],
+        "indent": ["error", 4],
+        "space-before-function-paren": "warn",
+        "array-callback-return": "warn"
     }
 }
