@@ -1,0 +1,29 @@
+input, button {
+    padding: 10px;
+    margin: 2px;
+    font-family: 'Arial', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: lightblue;
+    border: 1px  solid white;
+}
+
+.input {
+    border: 1px solid white;
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid dodgerblue;
+}
+
+::placeholder {
+    color: lightskyblue;
+}
+
+.occurrences {
+    border: 1px solid gray ;
+}
